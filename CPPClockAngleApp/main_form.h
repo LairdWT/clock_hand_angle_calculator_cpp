@@ -321,7 +321,7 @@ namespace CPPClockAngleApp {
 			{
 				clear_textboxes();
 				MessageBox::Show("Error: Input a valid Hour. (1 to 12)");
-				printf("%s is not a valid Int32 input \n", hour_text);
+				printf("Hour is not a valid Int32 input \n");
 				return;
 			};
 
@@ -342,7 +342,7 @@ namespace CPPClockAngleApp {
 			{
 				clear_textboxes();
 				MessageBox::Show("Error: Input a valid Minute. (0 to 59)");
-				printf("%s is not a valid Int32 input \n", minute_text);
+				printf("Minute is not a valid Int32 input \n");
 				return;
 			};
 
